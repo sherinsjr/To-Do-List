@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: "Montserrat";
+}
+body{
+    background: #D3959B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BFE6BA, #D3959B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BFE6BA, #D3959B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* login form */
+
+.my_login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-login {
+    border-radius: 8px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+  
+}
+#l-btn{
+    color: rgb(25, 25, 121);
+    font-weight: 500;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-size: medium;
+    width: 100px;
+    transition: all 0.5s ;
+    background: #D3959B;  
+background: -webkit-linear-gradient(to right, #BFE6BA, #D3959B);  
+background: linear-gradient(to right, #BFE6BA, #D3959B); 
+
+}
+#l-btn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    border-color: beige;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 2px 3px black;
+}
+.L-b{
+    text-align: center;
+    border-radius: 8px;
+    border-top-color: #77edd7;
+    border-left-color:#77edd7;
+    border-right-color: #5b66a5;
+    border-bottom-color: #5b66a5;
+}
+#LF-heading{
+    margin-top: 10 px;
+}
+
+/* navbar */
+.navbar{
+    background: #D3959B;  
+    background: -webkit-linear-gradient(to right, #BFE6BA, #D3959B);  
+    background: linear-gradient(to right, #BFE6BA, #D3959B); 
+}
+
+
+#Main-head{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.LogBtn{
+    margin-left: 700px;
+    border-radius: 9px;
+    transition: all 1.5s;
+    padding: 5px;
+    background-color: #D3959B;
+    border-color: #D3959B;
+ 
+}
+.LogBtn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: ghostwhite;
+    font-weight: bolder;
+    font-style: inherit;
+    box-shadow: 2px 3px white;
+}
+.nxt{
+    border-radius: 9px;
+    border: 2px solid #D3959B ;
+    background-color: #D3959B;
+    padding: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: all 1.5s;
+}
+.nxt:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: ghostwhite;
+    font-weight: bolder;
+    font-style: inherit;
+    box-shadow: 2px 3px white;
+}
+
+
+/* table section */
+
+#TableList{
+    position: absolute;
+    top:8em;
+    left:17em;
+    width: 65%;
+    border-collapse: collapse;
+    border: 1.5px solid goldenrod;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#TableList th{
+    border: 1px solid red;
+    padding: 12px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+#TableList td{
+    border: 1px solid #fff;
+    padding: 12px;
+    color: black;
+}
+#TableList tr:hover{
+background-color:slategray;
+}
